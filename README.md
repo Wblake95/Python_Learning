@@ -2,7 +2,7 @@
 A dumping ground for stuff I'm trying in Python.
 
 ## Resources used:
-### [Projects]
+### Projects
 #### [W3schools](https://www.w3schools.com/python/default.asp)
 - [Calculator.py](https://github.com/Wblake95/Python_Learning/blob/main/Calculator.py)
 - [Calculator2.py](https://github.com/Wblake95/Python_Learning/blob/main/Calculator2.py)
