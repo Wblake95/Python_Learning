@@ -1,5 +1,10 @@
 #! /usr/bin/env python3
 
+# Guide from "Freecodecamp.com" https://www.freecodecamp.org/news/python-projects-for-beginners/#guess-the-number-game-python-project-computer-
+# This was two lessons I put in one.
+    # https://www.youtube.com/watch?v=8ext9G7xspg&t=414s
+    # https://www.youtube.com/watch?v=8ext9G7xspg&t=797s
+
 import random
 import datetime as dt
 
