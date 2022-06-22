@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 
 import time
+# Lesson from "Freecodecamp.com" https://www.youtube.com/watch?v=SqvVm3QiQVk&t=1992s
 # https://docs.python.org/3/library/time.html
 # My comments will focus on what I learned from this project.
 def countdown(t):
