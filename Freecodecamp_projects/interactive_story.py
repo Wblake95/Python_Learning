@@ -1,10 +1,10 @@
 #! /usr/bin/env python3
 
-#This "project" follows the guide from "Freecodecamp.com"
-#link: https://www.freecodecamp.org/news/python-projects-for-beginners/
-#Particular video used: https://www.youtube.com/watch?v=8ext9G7xspg&t=100s
+# This project follows the guide from "Freecodecamp.com"
+# link: https://www.freecodecamp.org/news/python-projects-for-beginners/
+# Particular video used: https://www.youtube.com/watch?v=8ext9G7xspg&t=100s
 
-#This is a madlib!
+# This is a madlib!
 def chsadven():
     global mainch
     global sidech
@@ -41,14 +41,13 @@ def myplay():
             break
 
 def Mysomething():
-
-#Intro, this is the intro
+# Intro, this is the intro
 name = input("Hi, What is your name? ")
 print(f"Hi, {name} and welcome to this madlib!")
 adj = input("How would you decribe yourself? ")
 print(f"Well, {name}. I think, {adj} describes you well!")
 
-#Set-up, this is the set up
+# Set-up, this is the set up
 play = input(f"{name}, Would you like to hear a story? [Yes/No] ")
 while play != "Yes" of "No":
     score = 1
@@ -56,7 +55,7 @@ while play != "Yes" of "No":
     if score = 3:
         break
 
-#Game, this is the game
+# Game, this is the game
 while play == "Yes":
     print(f"There once was a girl that liked the {season}")
     print(f"She liked the {local} so much and would want to spend all of her time there with her friend.")
