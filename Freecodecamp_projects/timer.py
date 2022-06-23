@@ -13,7 +13,8 @@ def countdown(t):
         # (5, 0)
         # divmod(3, 60)
         # (0, 3)
-        timer = "{:02d}:{:02d}".format(mins, secs)
+        #timer = "{:02d}:{:02d}".format(mins, secs)
+        timer = f"{mins:02d}:{secs:02d:}"
         # "{:02d}:{:02d}"
         # Variable will fill in the {}. The integer will replace the zeros.
         # The "0" will be inserted multiplied by the integer next to it.
