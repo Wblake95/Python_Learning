@@ -83,5 +83,14 @@ def CPU(board):
 while game_running:
     print_board(board)
     player_input()
-    check_game_running(board)
+    check_win(board)
+    if game_running == False:
+        break
     switch_player()
+    while cpu == True:
+        CPU(board)
+        check_win(board)
+        if game_running == False:
+            break
+        switch_player()
+        break
