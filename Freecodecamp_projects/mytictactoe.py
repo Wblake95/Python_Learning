@@ -9,6 +9,8 @@
 board = ["-","-","-","-","-","-","-","-","-"]
 player = "x"
 game_running = True
+cpu = input("Would you like to play with the computer? [T/F] ").upper()
+cpu = True if cpu == "T" else False
 
 def print_board(board):
     row1,row2,row3 = board[0]+"|"+board[1]+"|"+board[2],board[3]+"|"+board[4]+"|"+board[5],board[6]+"|"+board[7]+"|"+board[8]
@@ -17,7 +19,8 @@ def print_board(board):
 def player_input():
     x = int(input(f"Place your {player}! "))
     while x:
-        if board[x-1] == "x" or board[x-1] ==  "o":
+        if board[x-1] == "x" or board[x-1] == "o":
+            print_board(board)
             print("Oops, that spot is taken!")
             x = int(input(f"Place your {player}! "))
         else:
@@ -64,10 +67,18 @@ def check_game_running(board):
 
 def switch_player():
     global player
-    if player == "x":
-        player = "o"
-    else:
-        player = "x"
+    player = "o" if player == "x" else "x"
+
+def CPU(board):
+    while player == "o":
+        x = random.randint(0,8)
+        while x:
+            if board[x] == "x" or board[x] ==  "o":
+                x = random.randint(0,8)
+            else:
+                board[x] = player 
+                break
+        break
 
 while game_running:
     print_board(board)
